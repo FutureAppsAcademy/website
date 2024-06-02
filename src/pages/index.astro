@@ -4,8 +4,6 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
@@ -25,8 +23,8 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Join Us',
-        href: 'https://github.com/onwidget/astrowind',
+        text: 'Enroll today',
+        href: 'https://buy.stripe.com/eVaeXk4NHfE4bbWaEE',
         target: '_blank',
       },
       { text: 'Learn more', href: '#features' },
@@ -40,9 +38,9 @@ const metadata = {
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">Future Apps Academy</span> is a bootcamp empowering high school students to learn app development with experienced industry leaders.
-       </span
-      >
+        <span class="font-semibold">Future Apps Academy</span> is a bootcamp empowering high school students to learn app
+        development with experienced industry leaders.
+      </span>
       <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
       Create an app with our 2-week bootcamp and gain app building skills and a development community forever.
     </Fragment>
@@ -50,18 +48,18 @@ const metadata = {
 
   <!-- Note Widget ******************* -->
 
-  <Note />
+  <!-- <Note /> -->
 
   <!-- Features Widget *************** -->
 
-<Features
+  <Features
     id="features"
     tagline="Features"
     title="What you get with Future Apps Academy"
-    subtitle="An immersive and dynamic learning experience where high school students can learn to build apps in just two weeks, guided by industry leaders. Most engaging and innovative app development program for young learners."
+    subtitle="An immersive and dynamic learning experience where high school students can learn to build iOS apps in just two weeks, guided by industry leaders. Most engaging and innovative app development program for young learners."
     items={[
       {
-        title: 'Comprehensive App Development Curriculum',
+        title: 'Comprehensive iOS App Development Curriculum',
         description:
           'A well-rounded curriculum that covers everything from basic programming principles to advanced app development, tailored specifically for high school students.',
         icon: 'tabler:brand-tailwind',
@@ -69,7 +67,7 @@ const metadata = {
       {
         title: 'Hands-on Learning Experience',
         description:
-          'Students will build their own applications using cutting-edge technologies under the guidance of experienced developers and industry leaders.',
+          'Students will build their own applications using cutting-edge technologies under the guidance of experienced developers.',
         icon: 'tabler:components',
       },
       {
@@ -137,10 +135,6 @@ const metadata = {
     </Fragment>
   </Content>
 
-
-
-
-
   <!-- HighlightedPosts Widget ******* -->
 
   <BlogLatestPosts
@@ -161,32 +155,30 @@ const metadata = {
       {
         title: 'Why Future Apps Academy?',
         description:
-          "Future Apps Academy offers high-quality app development bootcamps that teaches stuents real-world app development skills, allowing coders to build their first app within just a couple weeks.",
+          'Future Apps Academy offers high-quality app development bootcamps that teaches stuents real-world app development skills, allowing coders to build their first app within just a couple weeks.',
       },
       {
         title: 'How do I get started?',
-        description:
-          'Get started by clicking the sign up button where you will be able to join us and learn more.',
+        description: 'Get started by clicking the sign up button where you will be able to join us and learn more.',
       },
       {
         title: 'How long is the bootcamp?',
-        description:
-          "The bootcamp will be two weeks long.",
+        description: 'The bootcamp will be two weeks long.',
       },
       {
-        title: "What will students be able to do after the bootcamp?",
+        title: 'What will students be able to do after the bootcamp?',
         description:
-          "Students will be able to create an app of their choice with dynamic features ranging from games, productivity software, and more.",
+          'Students will be able to create an app of their choice with dynamic features ranging from games, productivity software, and more.',
       },
       {
         title: 'Where will the bootcamp take place?',
         description:
-          "The bootcamp will take place on the Georgia Tech campus, with the speciifc rooms given after registration.",
+          'The bootcamp will take place on the Georgia Tech campus, with the speciifc rooms given after registration.',
       },
       {
         title: 'Why should I learn app development?',
         description:
-          "App development allows people to gain agency over their ideas, since the future of technology relies on the next generation being able to work and build technology in every industry.",
+          'App development allows people to gain agency over their ideas, since the future of technology relies on the next generation being able to work and build technology in every industry.',
       },
     ]}
   />
@@ -215,11 +207,9 @@ const metadata = {
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Future Apps Academy</span>
+      <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Future Apps Academy</span>
     </Fragment>
 
-    <Fragment slot="subtitle">
-      Join us today to get started on your app development journey!
-    </Fragment>
+    <Fragment slot="subtitle"> Join us today to get started on your app development journey! </Fragment>
   </CallToAction>
 </Layout>
