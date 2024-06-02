@@ -33,16 +33,16 @@ const metadata = {
   >
     <Fragment slot="title">
       Coding for your future with <span class="hidden xl:inline"> </span>
-      <span class="text-accent dark:text-white highlight"> Future Apps Academy</span> bootcamp.
+      <span class="text-accent dark:text-white highlight"> Future Apps Academy</span>.
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">Future Apps Academy</span> is a bootcamp empowering high school students to learn app
-        development with experienced industry leaders.
+        <span class="font-semibold">Future Apps Academy</span> offers iOS App Development bootcamps empowering high school
+        students to learn app development with experienced iOS developers. Come learn app building skills and join a development
+        community forever.
       </span>
       <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Create an app with our 2-week bootcamp and gain app building skills and a development community forever.
     </Fragment>
   </Hero>
 
@@ -56,30 +56,30 @@ const metadata = {
     id="features"
     tagline="Features"
     title="What you get with Future Apps Academy"
-    subtitle="An immersive and dynamic learning experience where high school students can learn to build iOS apps in just two weeks, guided by industry leaders. Most engaging and innovative app development program for young learners."
+    subtitle="An immersive and dynamic learning experience where high school students can learn to build iOS apps in just a few weeks, guided by experienced iOS developers."
     items={[
       {
-        title: 'Comprehensive iOS App Development Curriculum',
+        title: 'Introduction to iOS App Development',
         description:
-          'A well-rounded curriculum that covers everything from basic programming principles to advanced app development, tailored specifically for high school students.',
+          'A well-rounded curriculum that introduces students to programming principles and app development, tailored specifically for high school students.',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: 'Hands-on Learning Experience',
+        title: 'Hands-on Project Experience',
         description:
-          'Students will build their own applications using cutting-edge technologies under the guidance of experienced developers.',
+          'Students will develop their own basic applications using modern technologies under the guidance of experienced developers.',
         icon: 'tabler:components',
       },
       {
-        title: 'Industry Best Practices',
+        title: 'Foundational Coding Skills',
         description:
-          'Learn directly from professionals about best practices in coding, app design, and deployment to ensure the creation of high-quality, efficient applications.',
+          'Learn the essential coding skills and best practices in app design and deployment to ensure a solid start in app development.',
         icon: 'tabler:list-check',
       },
       {
-        title: 'Accelerated Learning Process',
+        title: 'Intensive Learning Schedule',
         description:
-          'A fast-paced, intensive learning schedule designed to teach app building skills efficiently, maximizing learning outcomes within two weeks.',
+          'A fast-paced learning schedule designed to teach essential app-building skills and provide a rewarding first experience in coding.',
         icon: 'tabler:rocket',
       },
       {
@@ -89,16 +89,16 @@ const metadata = {
         icon: 'tabler:arrows-right-left',
       },
       {
-        title: 'Innovation and Creativity',
+        title: 'Encouragement of Innovation and Creativity',
         description:
-          'Encourages creativity and innovation, allowing students to explore new ideas and bring unique app concepts to life during the program.',
+          'Encourages creativity and innovation, allowing students to explore new ideas and bring their unique app concepts to life during the program.',
         icon: 'tabler:bulb',
       },
     ]}
   />
 
   <!-- Content Widget **************** -->
-
+  <!-- 
   <Content
     isReversed
     tagline="Inside Academy"
@@ -133,15 +133,16 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
   <!-- HighlightedPosts Widget ******* -->
 
   <BlogLatestPosts
-    title="Find out more content in our Newsletter"
-    information={`New updates can be found below.
-                        Each new article will be an important step that you will need to know to be an expert in creating apps.
-                `}
+    title="Find out more in our Newsletter"
+    ,
+    information=`Stay updated with the latest from Future Apps Academy.
+                        We share the story of why we started Future Apps Academy and our mission to inspire the next generation of developers.
+                  `
   />
 
   <!-- FAQs Widget ******************* -->
@@ -155,43 +156,73 @@ const metadata = {
       {
         title: 'Why Future Apps Academy?',
         description:
-          'Future Apps Academy offers high-quality app development bootcamps that teaches stuents real-world app development skills, allowing coders to build their first app within just a couple weeks.',
-      },
-      {
-        title: 'How do I get started?',
-        description: 'Get started by clicking the sign up button where you will be able to join us and learn more.',
+          'Future Apps Academy offers high-quality app development bootcamps that teach students real-world app development skills, allowing them to build their first app within just a short period. App development allows people to gain agency over their ideas and is essential as technology continues to evolve.',
       },
       {
         title: 'How long is the bootcamp?',
-        description: 'The bootcamp will be two weeks long.',
-      },
-      {
-        title: 'What will students be able to do after the bootcamp?',
-        description:
-          'Students will be able to create an app of their choice with dynamic features ranging from games, productivity software, and more.',
+        description: 'The bootcamp will be either one or two weeks long, depending on the specific program.',
       },
       {
         title: 'Where will the bootcamp take place?',
         description:
-          'The bootcamp will take place on the Georgia Tech campus, with the speciifc rooms given after registration.',
+          'The bootcamp will take place on the Georgia Tech campus, with specific rooms provided after registration.',
       },
       {
-        title: 'Why should I learn app development?',
+        title: 'How do I get started?',
+        description: 'Get started by clicking the enroll button where you will be able to join us and learn more.',
+      },
+      {
+        title: 'What will students be able to do after the bootcamp?',
         description:
-          'App development allows people to gain agency over their ideas, since the future of technology relies on the next generation being able to work and build technology in every industry.',
+          'Students will gain the foundational skills needed to create a basic app and will be equipped with the motivation and knowledge to continue learning and building projects independently.',
+      },
+      {
+        title: 'What prior experience do I need?',
+        description:
+          'No prior experience is required. Our bootcamp is designed for beginners, providing a solid foundation in app development.',
+      },
+      {
+        title: 'What will I need to bring to the bootcamp?',
+        description:
+          'Participants will need to bring a recent MacBook running the latest OS, capable of downloading and running Xcode.',
+      },
+      {
+        title: 'Who will be teaching the bootcamp?',
+        description:
+          'Our instructors are iOS developers from the Georgia Tech iOS Club. They have experience as Apple SWE interns and have taught other college students how to build apps.',
+      },
+      {
+        title: 'Post-Bootcamp Support',
+        description:
+          'Participants will have access to a Discord channel where they can reach out for help and support from instructors and peers even after the bootcamp ends.',
+      },
+      {
+        title: 'How do I pay for the bootcamp?',
+        description:
+          'Payment details will be provided during the enrollment process. We accept various payment methods including credit cards and online payments.',
+      },
+      {
+        title: 'Are there any scholarships or financial aid options available?',
+        description:
+          'Yes, we offer a limited number of scholarships for students who demonstrate financial need. For more information, please email futureappsacademy@gmail.com.',
+      },
+      {
+        title: 'What kind of projects will we be working on?',
+        description:
+          'Participants will work on beginner-friendly projects designed to teach the fundamentals of app development. By the end of the bootcamp, students will have a basic app they can continue to develop.',
       },
     ]}
   />
 
   <!-- Stats Widget ****************** -->
 
-  <Stats
+  <!-- <Stats
     stats={[
       { title: 'Students', amount: '500+' },
       { title: 'Instructors', amount: '100+' },
       { title: 'Impact', amount: 'Invaluable' },
     ]}
-  />
+  /> -->
 
   <!-- CallToAction Widget *********** -->
 
@@ -199,10 +230,9 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Learn More',
-        href: 'https://github.com/onwidget/astrowind',
+        text: 'Enroll Today',
+        href: 'https://buy.stripe.com/eVaeXk4NHfE4bbWaEE',
         target: '_blank',
-        icon: 'tabler:download',
       },
     ]}
   >
