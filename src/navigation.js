@@ -4,26 +4,19 @@ export const headerData = {
   links: [
     {
       text: 'Home',
-
+      href: '',
     },
     {
       text: 'Learn More',
-      links: [
-
-        {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
-
-      ],
+      href: '#features'
     },
 
     {
       text: 'Contact',
-      href: '#',
+      href: '#contact',
     },
   ],
-  actions: [{ text: 'Join Us', href: 'github.com', target: '_blank' }],
+  actions: [{ text: 'Join Us', href: 'https://aqv0dow2vek.typeform.com/to/fDDDgSPV', target: '_blank' }],
 };
 
 export const footerData = {
